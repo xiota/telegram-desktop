@@ -1,15 +1,5 @@
 name: Docker.
 
-on:
-  push:
-    paths:
-      - '.github/workflows/docker.yml'
-      - 'Telegram/build/docker/centos_env/**'
-  pull_request:
-    paths:
-      - '.github/workflows/docker.yml'
-      - 'Telegram/build/docker/centos_env/**'
-
 jobs:
   docker:
     name: Ubuntu

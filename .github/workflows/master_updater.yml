@@ -1,9 +1,5 @@
 name: Master branch updater.
 
-on:
-  release:
-    types: released
-
 jobs:
   updater:
     runs-on: ubuntu-latest

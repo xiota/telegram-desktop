@@ -1,9 +1,5 @@
 name: Issue closer.
 
-on:
-  issues:
-    types: opened
-
 jobs:
   comment:
     runs-on: ubuntu-latest
